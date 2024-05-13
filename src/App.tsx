@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const GAME_URL = "http://127.0.0.1:5500/";
+const GAME_URL = "https://iframe-games-examples.vercel.app/";
 
 function App() {
   const ref = useRef<HTMLIFrameElement>(null);
